@@ -228,36 +228,15 @@ p {
 /*--- Projects ---*/
 
 /*--- Background Music ---*/
-.container-inline {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 0px 0px 24px 0px;
-}
-
 .p-project {
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 .main {
     background: white;
     border-radius: 10px;
     padding: 24px 24px;
-    column-gap: 24px;
-}
-
-.bgm-item {
-    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
-}
-
-.bgm-item-1 {
-    width: 80%;
-}
-
-.bgm-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     column-gap: 24px;
 }
 
@@ -272,6 +251,22 @@ p {
     width: fit-content;
     padding: 12px 24px;
     border-radius: 20px;
+}
+
+.click-link {
+    font-size: 16px;
+    font-weight: inherit;
+    font-style: italic;
+    color: black;
+}
+
+.click-link:hover {
+    color:  #7149D4;
+    text-decoration: underline;
+}
+
+.click-link:active {
+    opacity: 0.5;
 }
 
 .contact-icon {
