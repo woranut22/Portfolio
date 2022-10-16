@@ -229,7 +229,6 @@ p {
 
 /*--- Background Music ---*/
 .p-project {
-    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 12px;
 }
 
@@ -254,6 +253,7 @@ p {
 }
 
 .click-link {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: inherit;
     font-style: italic;
