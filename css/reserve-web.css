@@ -2,6 +2,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    background: #f2f2f2;
 }
 
 .container {
@@ -21,7 +22,15 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 800;
-    color: rgb(100, 100, 100);
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
     text-transform: uppercase;
     margin-bottom: 18px;
 }
@@ -29,7 +38,6 @@ h3 {
 p {
     font-size: 16px;
 }
-
 
 .item {
     margin-bottom: 8px;
@@ -71,7 +79,6 @@ p {
 .link-Portfolio {
     color: #FF914D;
 }
-
 
 .nav-list {
     display: flex;
@@ -218,11 +225,32 @@ p {
     }
 }
 
-/*--- website Section ---*/
+/*--- Website Section ---*/
+
+/*--- Project ---*/
 .p-project {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    margin: 24px 0px;
+    margin-bottom: 12px;
+}
+
+.main {
+    background: white;
+    border-radius: 10px;
+    padding: 24px 24px;
+    column-gap: 24px;
+}
+
+/*--- Contact Section ---*/
+.button {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(79, 96, 167);
+    color: white;
+    width: fit-content;
+    padding: 12px 24px;
+    border-radius: 20px;
 }
 
 .click-link {
@@ -239,20 +267,6 @@ p {
 
 .click-link:active {
     opacity: 0.5;
-}
-
-
-/*--- Contact Section ---*/
-.button {
-    display: block;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: rgb(79, 96, 167);
-    color: white;
-    width: fit-content;
-    padding: 12px 24px;
-    border-radius: 20px;
 }
 
 .contact-icon {
