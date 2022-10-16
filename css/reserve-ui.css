@@ -211,8 +211,7 @@ p {
 
 /*--- UI Section ---*/
 .p-project {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 16px 0px;
+    margin: 16px 0px 16px 0px;
 }
 
 .p-project-1 {
@@ -225,6 +224,7 @@ p {
 }
 
 .click-link {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-weight: inherit;
     font-style: italic;
@@ -262,7 +262,7 @@ p {
 .ui-list-01 {
     display: grid;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 8px;
     align-items: center;
     width: 100%;
 }
