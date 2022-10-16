@@ -12,10 +12,10 @@ body {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 32px auto;
+    margin: 26px auto;
 }
 
 h3 {
@@ -147,13 +147,11 @@ p {
 
 .about-edu {
     color: rgb(100, 100, 100);
-    font-size: 20px;
     font-weight: 500;
     margin-bottom: 32px;
 }
 
 .about-info {
-    font-size: 18px;
     font-weight: 500;
     margin-bottom: 32px;
 }
@@ -170,7 +168,7 @@ p {
 
 
 .job {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
     text-transform: uppercase;
     color: #e66c21;
@@ -179,7 +177,7 @@ p {
 }
 
 .name {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
     text-transform: uppercase;
     padding: 0px 0px 0px 50px;
@@ -191,36 +189,6 @@ p {
     flex-direction: row;
 }
 
-@media screen and (max-width: 768px) {
-    .me {
-        display: grid;
-        justify-items: center;
-        justify-content: center;
-    }
-
-    .me-text {
-        display: grid;
-        justify-items: center;
-        justify-content: center;
-    }
-
-    .job {
-        font-size: 50px;
-        font-weight: 600;
-        padding: 0px 0px 0px 0px;
-    }
-    
-    .name {
-        font-size: 50px;
-        font-weight: 600;
-        padding: 50px 0px 0px 0px;
-        margin-bottom: 24px;
-    }
-}
-
-@media screen and (max-width: 512px) {
-
-}
 
 /*--- Experince Section ---*/
 .detail {
@@ -277,4 +245,83 @@ p {
   
 .hover-elevate:active {
     box-shadow: none;
+}
+
+/* --- other ---*/
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        width: 180px;
+        height: 180px;
+    }
+
+    .me {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .me-text {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .job {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .name {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 40px 0px 0px 0px;
+        margin-bottom: 24px;
+    }
+
+    .section {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .avatar {
+        width: 140px;
+        height: 140px;
+    }
+
+    .name {
+        font-size: 26px;
+        padding: 30px 0px 0px 0px;
+        margin-bottom: 16px;
+    }
+
+    .job {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 16px auto;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    h4 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .item {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
 }
