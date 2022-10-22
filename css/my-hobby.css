@@ -223,14 +223,6 @@ p {
     opacity: 0.5;
 }
 
-
-.container-inline {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 0px 0px 24px 0px;
-}
-
 .p-project {
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 12px;
@@ -241,34 +233,6 @@ p {
     border-radius: 10px;
     padding: 24px 24px;
     column-gap: 24px;
-}
-
-.line-list-01 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 12px;
-    column-gap: 12px;
-    width: 100%;
-}
-
-.line-list-02 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 12px;
-    column-gap: 12px;
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    .line-list-01 {
-    grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 512px) {
-    .line-list-01 {
-        grid-template-columns: 1fr 1fr;
-        }
 }
 
 /*--- Contact Section ---*/
